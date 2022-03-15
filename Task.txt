@@ -1,0 +1,20 @@
+Да се направи REST API, поддържащо следните методи:
+
+GET  /news
+@return [{id, title, date, text}]
+
+GET  /news/:id
+@return {id, title, date, text}
+
+POST /news/:id [:title, :date, :text]
+@return {success}
+
+DELETE /news/:id
+@return {success}
+
+Изисквания:
+Кодът да е OOP и да е максимално опростен, прегледен и удобен за разрастване
+Данните да се записват в MySQL и да се връщат като json в указания формат
+Да няма никакви security issues
+Да не се използва framework, но да има структура
+От теб се очаква да прецениш каква функционалност да включиш в кода и дали да използваш готови библиотеки.
